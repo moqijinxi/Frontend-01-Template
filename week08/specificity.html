@@ -1,0 +1,12 @@
+<style>
+  div#a.b .c[id=x] {
+    color: blue;
+  }
+  #a:not(#b) {
+    color: green;
+  }
+</style>
+
+<div id="a" class="b">
+  <div class="c" id="x">red</div>
+</div>
